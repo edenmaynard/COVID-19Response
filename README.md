@@ -1,1 +1,1 @@
-# COVID-19 Response
+# North Dakota's COVID-19 Response
