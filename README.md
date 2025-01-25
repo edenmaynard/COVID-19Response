@@ -49,13 +49,13 @@ The daily reported COVID-19 infections during the 120-day period are included in
 ## SIR Models
 The simulation evaluates seven models, each considering one or more policies:
 
-Reopening of Buildings + Smart Restart
-Business Closures + Reopening of Buildings
-Business Closures + Smart Restart
-Business Closures Only
-Reopening of Buildings Only
-Smart Restart Only
-No Policies Enacted
+- Reopening of Buildings + Smart Restart
+- Business Closures + Reopening of Buildings
+- Business Closures + Smart Restart
+- Business Closures Only
+- Reopening of Buildings Only
+- Smart Restart Only
+- No Policies Enacted
 
 ## Optimization Results
 Optimized Transmission Rates (α)
