@@ -75,13 +75,13 @@ The optimized transmission rates for each model are:
 
 The AIC scores indicate the best-fit model:
 
-Model 1: -290.32
-Model 2: -290.46 (Best Fit)
-Model 3: -287.69
-Model 4: -269.21
-Model 5: -281.33
-Model 6: -270.11
-Model 7: -245.91
+- Model 1: -290.32
+- Model 2: -290.46 (Best Fit)
+- Model 3: -287.69
+- Model 4: -269.21
+- Model 5: -281.33
+- Model 6: -270.11
+- Model 7: -245.91
 
 ## Graphical Analysis
 The infectious population from each model is plotted against the real data for comparison.
