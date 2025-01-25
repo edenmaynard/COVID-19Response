@@ -14,13 +14,15 @@ This project analyzes North Dakota's response to the COVID-19 pandemic using the
 
 # SIR Model Overview
 
+![SIR](SIR.png)
+
 The SIR model categorizes the population into three groups:
 
 - Susceptible (S): Individuals at risk of infection.
 - Infectious (I): Infected individuals capable of transmitting the disease.
 - Recovered (R): Individuals who have recovered and are no longer infectious.
 
-## Other Variables:
+Other Variables:
 - α: Transmission rate (force of infection)
 - β: Recovery rate
 - ΔT: Time interval
@@ -36,10 +38,10 @@ The SIR model categorizes the population into three groups:
 This analysis focuses on the first 120 days of the COVID-19 pandemic in North Dakota (March 19, 2020, to July 17, 2020).
 
 ## Key Policies Analyzed
-Business Closures: Implemented on March 27, 2020 (Day 8).
-Reopening of Buildings: Initiated on May 1, 2020 (Day 42).
-"Smart Restart" Plan: Launched on May 22, 2020 (Day 64) to resume normal activities.
-Note: Policies such as mask mandates and social distancing were also introduced but had minimal effect due to low compliance.
+- Business Closures: Implemented on March 27, 2020 (Day 8).
+- Reopening of Buildings: Initiated on May 1, 2020 (Day 42).
+- "Smart Restart" Plan: Launched on May 22, 2020 (Day 64) to resume normal activities.
+- Note: Policies such as mask mandates and social distancing were also introduced but had minimal effect due to low compliance.
 
 # Results
 
@@ -90,7 +92,7 @@ The infectious population from each model is plotted against the real data for c
 
 Legend:
 - Red: Model 1
-- Blue: Model 2
+- Blue: Model 2 (Best Model)
 - Green: Model 3
 - Yellow: Model 4
 - Orange: Model 5
@@ -98,8 +100,15 @@ Legend:
 - Pink: Model 7
 - Black: Real data
 
+![best-fit-model](best-fit-model.png)
+- March 19th - May 1st -> R0 > 1
+- May 2nd - May 22nd -> R0 > 1
+- May 23rd- July 17th -> R0 < 1
+
 # Implications
 
-The analysis reveals that Model 2, which includes Business Closures and Reopening of Buildings, aligns most closely with the real data. These policies significantly contributed to North Dakota's failure to contain COVID-19, emphasizing the importance of timing in public health interventions.
+The analysis reveals that Model 2, which includes Business Closures and Reopening of Buildings, aligns most closely with the real data. These policies significantly contributed to North Dakota's failure to contain COVID-19, emphasizing the importance of timing in public health interventions. The spike in data at the end of our time frame could potentially be the result of the Smart Restart and was just visible 3 weeks after the policy’s implementation, which is when the spike began.  Data outside of our timeframe would have to be collected to determine the cause of this spike officially.  Also, our raw data is collected for the tested and reported cases of COVID-19 and does not account for under-testing.  This could influence our data, and cause spikes to look under or over-dramatic.  However, with the reported data we have collected, it is clear that the two most effective policies were the reopening on May 1 and smart restart on May 22, still, even these policies were ineffective in controlling the spread of infection during the first 120 days of the pandemic.
 
-This project highlights lessons for future pandemics: poorly timed policy implementation can undermine recovery efforts, even with public health measures in place.
+# Credits
+
+This project was made in collaboration with Rayan Afzal, Etienne Sasenarine, and Aliyah Amin
