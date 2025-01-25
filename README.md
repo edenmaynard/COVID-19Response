@@ -6,29 +6,29 @@ This project analyzes North Dakota's response to the COVID-19 pandemic using the
 
 # Key Features
 
-Data Smoothing: Central censoring computes weekly averages to simplify analysis and mitigate the impact of minor fluctuations in the data.
-SIR Model Implementation: Simulates the dynamics of susceptible, infectious, and recovered populations using differential equations.
-Optimization: Identifies optimal transmission rates (α) by minimizing the residual sum of squares between real-world data and the model's predictions.
-Akaike Information Criterion (AIC): Assesses model accuracy using AIC scores to identify the best-fit model for real-world data.
-Visualization: Generates graphs comparing the infectious population trends from the SIR models against real data.
+- Data Smoothing: Central censoring computes weekly averages to simplify analysis and mitigate the impact of minor fluctuations in the data.
+- SIR Model Implementation: Simulates the dynamics of susceptible, infectious, and recovered populations using differential equations.
+- Optimization: Identifies optimal transmission rates (α) by minimizing the residual sum of squares between real-world data and the model's predictions.
+- Akaike Information Criterion (AIC): Assesses model accuracy using AIC scores to identify the best-fit model for real-world data.
+- Visualization: Generates graphs comparing the infectious population trends from the SIR models against real data.
 
 # SIR Model Overview
 
 The SIR model categorizes the population into three groups:
 
-Susceptible (S): Individuals at risk of infection.
-Infectious (I): Infected individuals capable of transmitting the disease.
-Recovered (R): Individuals who have recovered and are no longer infectious.
+- Susceptible (S): Individuals at risk of infection.
+- Infectious (I): Infected individuals capable of transmitting the disease.
+- Recovered (R): Individuals who have recovered and are no longer infectious.
 
 ## Other Variables:
-α: Transmission rate (force of infection)
-β: Recovery rate
-ΔT: Time interval
+- α: Transmission rate (force of infection)
+- β: Recovery rate
+- ΔT: Time interval
 
 ## Key Insights
-Transmission Rate (α): Influenced by public health measures such as mask mandates, social distancing, and business closures.
-Recovery Rate (β): Based on the average duration of infectiousness (e.g.,  β=0.05 for a 20-day period).
-Exclusions: This model does not consider immunity loss and reinfection, which simulates the initial 120 days of the pandemic.
+- Transmission Rate (α): Influenced by public health measures such as mask mandates, social distancing, and business closures.
+- Recovery Rate (β): Based on the average duration of infectiousness (e.g.,  β=0.05 for a 20-day period).
+- Exclusions: This model does not consider immunity loss and reinfection, which simulates the initial 120 days of the pandemic.
 
 # North Dakota Government Response
 
