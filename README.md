@@ -73,7 +73,7 @@ The optimized transmission rates for each model are:
 
 ## AIC Scores
 
-The AIC scores indicate the best-fit model:
+Akaike Information Criterion (AIC) is a statistical method for comparing models. The model with the lowest AIC score, when compared to the real number of infections, is the best fit for the real data.
 
 - Model 1: -290.32
 - Model 2: -290.46 (Best Fit)
