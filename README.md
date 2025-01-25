@@ -86,7 +86,7 @@ Akaike Information Criterion (AIC) is a statistical method for comparing models.
 ## Graphical Analysis
 The infectious population from each model is plotted against the real data for comparison.
 
-https://github.com/edenmaynard/COVID-19Response/blob/main/graph.png?raw=true![image](https://github.com/user-attachments/assets/efca8122-3d15-4af7-b29b-dc81f2556b80)
+https://github.com/edenmaynard/COVID-19Response/blob/main/graph.png?raw=true
 
 Legend:
 - Red: Model 1
