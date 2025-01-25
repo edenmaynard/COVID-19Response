@@ -87,14 +87,14 @@ The AIC scores indicate the best-fit model:
 The infectious population from each model is plotted against the real data for comparison.
 
 Legend:
-Red: Model 1
-Blue: Model 2
-Green: Model 3
-Yellow: Model 4
-Orange: Model 5
-Purple: Model 6
-Pink: Model 7
-Black: Real data
+- Red: Model 1
+- Blue: Model 2
+- Green: Model 3
+- Yellow: Model 4
+- Orange: Model 5
+- Purple: Model 6
+- Pink: Model 7
+- Black: Real data
 
 # Implications
 
